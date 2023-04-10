@@ -17,7 +17,7 @@ export const appChildren = [
     element: <EditDeleteAccount />,
   },
   {
-    path: "/ediAccount",
+    path: "/editAccount/:id",
     element: <EditAccount />,
   },
 ];
